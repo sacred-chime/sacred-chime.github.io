@@ -20,12 +20,7 @@ export const Home: React.FC<HomeProps> = () => {
         <Typography>Hello World</Typography>
         <Typography>Welcome to my website</Typography>
       </Box>
-      <Box
-        component="img"
-        sx={{ objectFit: "fill" }}
-        src={html_img}
-        alt="html_img"
-      ></Box>
+      <Box component="img" src={html_img} alt="html_img"></Box>
     </Box>
   );
 };
